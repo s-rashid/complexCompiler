@@ -1,0 +1,8 @@
+var x Int
+var y Int
+var tmp Int
+
+if (x > y) then (tmp = y) (y = x) (y = tmp) else 0 end
+
+return x 
+return y 

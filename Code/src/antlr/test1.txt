@@ -1,0 +1,9 @@
+var x Int
+var y Int
+
+
+x = 14
+
+if x < 15 then y = x + 1 else y = 0 end
+
+return y 

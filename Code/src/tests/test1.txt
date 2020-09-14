@@ -1,0 +1,14 @@
+var i Int
+var x Int
+var c Int
+var d Real
+var e Real
+
+require x > 4
+do x = x + 9
+ensure x > 13
+
+
+
+
+return x

@@ -1,0 +1,8 @@
+; {0 ≤ x ≤ 15 }   if x < 15 then x := x + 1 else x := 0 endif   {0 ≤ x ≤ 15 }
+(push)
+(declare-const x Int)
+(assert (and (>= x 0) (< x 15))) 
+(assert (ite (< x 15) (and (>= (+ x 1) 0) (< (+ x 1) 15)) (and (= x 0) (>= x 0) (< x 15))))
+(check-sat)
+(get-model)
+(pop)

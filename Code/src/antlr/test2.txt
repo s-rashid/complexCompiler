@@ -1,0 +1,8 @@
+var a Int
+var b Int
+var c Int
+var d Real
+var e Real
+c = 5
+d = (to_real c) + 0.5
+return d

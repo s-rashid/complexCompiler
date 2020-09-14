@@ -1,0 +1,13 @@
+var x Int
+var y Int
+var x1 Int
+var y1 Int
+var tmp Int
+
+x = 7
+y = 6
+
+if (x > y) then (tmp = y) (y1 = x) (x1 = tmp) else tmp = 0 end
+
+return x 
+return y 

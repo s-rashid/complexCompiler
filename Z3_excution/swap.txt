@@ -1,0 +1,15 @@
+  ((x1 = x0) & (y1 = y0)) | ((x1 = y0) | (y1 = x0))
+(push)
+(declare-const s1 Int)
+(declare-const s2 Int)
+(declare-const tmp Int)
+
+(assert (= s1 4))
+(assert (= s2 9))
+
+
+(assert (=> (> s1 s2) (and (= tmp s1) (= s1 s2) (= s2 tmp))))
+
+(check-sat)
+(get-model) 
+(pop)

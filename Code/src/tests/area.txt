@@ -1,0 +1,12 @@
+var p Real
+var r1 Real
+var r2 Real
+var r Real
+r = 3.0
+if ( r > 0) then (r1 = r * r) end
+
+p = 3.14
+
+r2 = p * r1
+
+return r2 

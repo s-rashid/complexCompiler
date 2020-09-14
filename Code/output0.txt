@@ -1,0 +1,11 @@
+(declare-const p Real)
+(declare-const r1 Real)
+(declare-const r2 Real)
+(declare-const r Real)
+(assert (> r 0))
+(assert (= r1 (* r r)))
+(assert (= p 3.14))
+ (assert (= r2 (* p r1)))
+(check-sat)
+ (get-model)
+

@@ -1,0 +1,8 @@
+var x Bool
+var y Bool
+x = true
+y = false
+var result Bool
+
+result = (not (((not x) and y) and ((not x) or (not y))))
+return result

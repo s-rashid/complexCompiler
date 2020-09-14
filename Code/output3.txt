@@ -1,0 +1,10 @@
+(declare-const x Int)
+(declare-const y Int)
+(declare-const tmp Int)
+(assert (=>(> x y) (and (= tmp y) (= y x) (= y tmp) )))
+(check-sat)
+ (get-model)
+
+(check-sat)
+ (get-model)
+

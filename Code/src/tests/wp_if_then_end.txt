@@ -1,0 +1,9 @@
+var r Real
+var r1 Real
+
+require r > 1
+ do if ( r = 2) then (r1 = r * r)  end 
+ensure r1 > 1
+
+
+return b

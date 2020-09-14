@@ -1,0 +1,40 @@
+﻿
+Declar: ID TYPE| ID (DataStructure) | ID DS | ID TYPE ‘=’ ID //Variable declaration/assignments
+
+Datastructure:  DS TYPE //datastructure declaration
+
+
+Declar_Fun: ID (TYPE) Type ; //function declaration
+
+//below is the different kinds of Arithmetic expression
+Expr: Expr “+”  Expr | Expr “-” Expr | Expr “/” Expr | Expr  “*”Expr |
+	Expr “+” (Expr) | Expr  “-” (Expr) | Expr “/” (Expr) | Expr “*”  (Expr) | Expr “=” (Expr) |
+ (Expr) “+”  Expr | (Expr) “-” Expr | (Expr)  “/” Expr | (Expr) “*” Expr |( Expr)  “=” Expr
+| NUM
+|ID
+
+Iteration: ‘FOR’ TYPE ID ‘;’ Expr ; Expr | ‘WHILE’’ Expr; // loop iteration
+
+
+
+
+
+Assert: 'IF' EXPR '=' ID //the if conditions
+
+ID: [a-z][a-zA-Z0-9_]*; //the names of the variable
+
+TYPE:  ‘Int’| ‘Bool’ | ‘Real’ //the different types
+
+DS: ‘Array’| ‘List-Set’ //the different datastructure types
+
+NUM: ‘0’| ‘-’?[1-9][0-9]*; //numbers input
+
+
+
+
+
+
+
+
+
+NUM: ‘0’| ‘-’?[1-9][0-9]*; //numbers input

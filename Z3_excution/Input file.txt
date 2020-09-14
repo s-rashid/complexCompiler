@@ -1,0 +1,81 @@
+﻿Area of Circle
+
+
+Var r Int
+Var p Real
+Var r1 Real
+Var r2 Real
+
+
+If (r > 0)
+        R1 = r * r;
+        P = 3.14
+        R2 = p * r1
+
+
+If
+
+
+
+
+Var x Int
+
+
+if( x >= 0 and x < 15)
+        if(x < 15)
+        X = x+1
+        
+Else{
+        X = 0;
+}
+
+
+
+
+SWAP
+Var s1 Int
+Var s2 Int
+Var tmp Int
+
+
+S1 = 4
+S2 = 9
+
+
+if(s1 > s2){
+        Tmp = s1;
+        S1 = s2
+        S2 = tmp;
+        
+}
+
+
+Boolean
+Var a Int
+Var b Int
+Var c Int
+Var d Real
+Var e Real
+
+check((a+b+2.0) < e)
+
+check((c+0.5 ) = d)
+
+check(a < b)
+
+
+
+
+WHILE
+
+
+Var x Int
+
+
+        if(x <= 10 and x < 10){
+        
+        X = x+1;
+        if(x < = 10 and x <  10){
+        Return sat;
+        }
+}
